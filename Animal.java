@@ -3,6 +3,7 @@ package AmirEric0613.dogAndCat;
 // a) Move common methods and fields to the class Animal
 // b) Create method yieldVoice
 
+// 1. Change Animal class to be abstract. Which methods should may be abstract.
 public abstract class Animal {
     private String animal1;
     private String animal2;
@@ -69,9 +70,5 @@ public abstract class Animal {
         this.noice3 = noice3;
     }
 
-    public void yieldVoice() {
-        System.out.println(getAnimal1() + " makes sound " + getNoice1());
-        System.out.println(getAnimal2() + " makes sound " + getNoice2());
-        System.out.println(getAnimal3() + " makes sound " + getNoice3());
-    }
+    public abstract void yieldVoice();
 }
