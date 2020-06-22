@@ -1,6 +1,9 @@
 package AmirEric0613.inheritance;
 // b) Create classes Rectangle and Circle . Both of them should inherit class Shape .
 
+// 1. Change Shape class to be abstract. Which methods should may be abstract?
+/** Didn't find any method that could be turned into abstract */
+
 abstract class Shape {
     // a) Add fields , create constructor , getters and setters
     private Integer perimeter;

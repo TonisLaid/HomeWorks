@@ -6,7 +6,7 @@ public class Circle extends Shape {
         PI,
     }
     public Circle(Integer perimeter, Integer area, Integer radius) {
-        super(perimeter, area); // Which fields and methods are common? inside the super!
+        super(perimeter, area); // Which fields and methods are common? Inside the super!
         this.radius = radius;
     }
 
