@@ -2,7 +2,9 @@ package AmirEric0613.inheritance;
 // b) Create classes Rectangle and Circle . Both of them should inherit class Shape .
 
 // 1. Change Shape class to be abstract. Which methods should may be abstract?
-/** Didn't find any method that could be turned into abstract */
+// 2. Add getPerimeter and getArea methods declaration to the Shape abstract class.
+// Implement and verify those methods for both Circle and Rectangle classes
+
 
 abstract class Shape {
     // a) Add fields , create constructor , getters and setters
@@ -14,17 +16,13 @@ abstract class Shape {
         this.area = area;
     }
 
-    public Integer getPerimeter() {
-        return perimeter;
-    }
+    public abstract Integer getPerimeter();
 
     public void setPerimeter(Integer perimeter) {
         this.perimeter = perimeter;
     }
 
-    public Integer getArea() {
-        return area;
-    }
+    public abstract Integer getArea();
 
     public void setArea(Integer area) {
         this.area = area;

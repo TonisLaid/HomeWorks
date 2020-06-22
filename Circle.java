@@ -2,11 +2,23 @@ package AmirEric0613.inheritance;
 
 public class Circle extends Shape {
     private Integer radius;
+
+    @Override
+    public Integer getPerimeter() {
+        return null;
+    }
+
+    @Override
+    public Integer getArea() {
+        return null;
+    }
+
     public enum values {
         PI,
     }
     public Circle(Integer perimeter, Integer area, Integer radius) {
-        super(perimeter, area); // Which fields and methods are common? Inside the super!
+        super(perimeter, area); // Which fields and methods are common?
+                                /** Those inside the super! */
         this.radius = radius;
     }
 

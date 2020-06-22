@@ -6,7 +6,8 @@ public class Rectangle extends Shape {
     private Integer sideB;
 
     public Rectangle(Integer perimeter, Integer area, Integer sideA, Integer sideB) {
-        super(perimeter, area); // Which fields and methods are common? inside the super!
+        super(perimeter, area); // Which fields and methods are common?
+                                /** Those inside the super! */
         this.sideA = sideA;
         this.sideB = sideB;
     }
@@ -41,5 +42,15 @@ public class Rectangle extends Shape {
                 ", SideA='" + getSideA() + '\'' +
                 ", SideB='" + getSideB() + '\'' +
                 '}';
+    }
+
+    @Override
+    public Integer getPerimeter() {
+        return null;
+    }
+
+    @Override
+    public Integer getArea() {
+        return null;
     }
 }
